@@ -25,8 +25,13 @@ const pokemons = [
 
 
   //2.soru başı
-  
-  console.log(doubledExperience);
+   const doubledExperience = pokemons.map((pokemon) => ({
+    name: pokemon.name,
+    experience: pokemon.experience * 2,
+}));
+
+console.log(doubledExperience);
+
   //2.soru sonu 
 
  
