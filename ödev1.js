@@ -19,11 +19,11 @@ let y = "2";
 
 let x1 = 3;
 let y1 = "3";
-x + y //23
+x + y //33
 
 let x2 = 24;
 let y2 = "Hello";
-x + y // Hello
+x + y // 24Hello
 
 let name = "Vivek";
 let surname = " Bisht";
@@ -31,14 +31,14 @@ name + surname // Vivek Bisiht
 
 let x3 = 3;
 let y3 = "3";
-x - y // 0
+x - y // NaN
 
 let x4 = 0;
 let y4 = 23;
 
-if(x) { console.log(x) } //2
+if(x) { console.log(x) } //0 olduğundan false olacak çıktı üretmeyecek
 
-if(y) { console.log(y) } //2
+if(y) { console.log(y) } //23
 
 isNaN("Hello") // true
 isNaN(345) // false
